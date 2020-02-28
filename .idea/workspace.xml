@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aec2c169-4deb-4a80-afe2-ad8c489e286b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YNbHa0GFTJWty1SpzFgx0gnA6X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.union">
+    <configuration name="pyModbus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyModbus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytubetest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytubetest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="union" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/union.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vlctest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vlctest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.union" />
+        <item itemvalue="Python.vlctest" />
+        <item itemvalue="Python.pyModbus" />
+        <item itemvalue="Python.pytubetest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aec2c169-4deb-4a80-afe2-ad8c489e286b" name="Default Changelist" comment="" />
+      <created>1582785913269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582785913269</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582786134456">
+      <screen x="65" y="24" width="1855" height="960" />
+    </state>
+    <state x="457" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.960@65.24.1855.960" timestamp="1582786134456" />
+    <state x="302" y="241" key="FileChooserDialogImpl" timestamp="1582791001496">
+      <screen x="65" y="24" width="1839" height="944" />
+    </state>
+    <state x="302" y="241" key="FileChooserDialogImpl/65.24.1839.944@65.24.1839.944" timestamp="1582791001496" />
+    <state x="304" y="245" key="FileChooserDialogImpl/65.24.1855.960@65.24.1855.960" timestamp="1582788201326" />
+    <state width="1816" height="259" key="GridCell.Tab.0.bottom" timestamp="1582797647573">
+      <screen x="65" y="24" width="1839" height="944" />
+    </state>
+    <state width="1816" height="259" key="GridCell.Tab.0.bottom/65.24.1839.944@65.24.1839.944" timestamp="1582797647573" />
+    <state width="1832" height="265" key="GridCell.Tab.0.bottom/65.24.1855.960@65.24.1855.960" timestamp="1582789493137" />
+    <state width="1816" height="259" key="GridCell.Tab.0.center" timestamp="1582797647572">
+      <screen x="65" y="24" width="1839" height="944" />
+    </state>
+    <state width="1816" height="259" key="GridCell.Tab.0.center/65.24.1839.944@65.24.1839.944" timestamp="1582797647572" />
+    <state width="1832" height="265" key="GridCell.Tab.0.center/65.24.1855.960@65.24.1855.960" timestamp="1582789493136" />
+    <state width="1816" height="259" key="GridCell.Tab.0.left" timestamp="1582797647572">
+      <screen x="65" y="24" width="1839" height="944" />
+    </state>
+    <state width="1816" height="259" key="GridCell.Tab.0.left/65.24.1839.944@65.24.1839.944" timestamp="1582797647572" />
+    <state width="1832" height="265" key="GridCell.Tab.0.left/65.24.1855.960@65.24.1855.960" timestamp="1582789493136" />
+    <state width="1816" height="259" key="GridCell.Tab.0.right" timestamp="1582797647573">
+      <screen x="65" y="24" width="1839" height="944" />
+    </state>
+    <state width="1816" height="259" key="GridCell.Tab.0.right/65.24.1839.944@65.24.1839.944" timestamp="1582797647573" />
+    <state width="1832" height="265" key="GridCell.Tab.0.right/65.24.1855.960@65.24.1855.960" timestamp="1582789493136" />
+    <state x="482" y="124" key="SettingsEditor" timestamp="1582791807745">
+      <screen x="65" y="24" width="1839" height="944" />
+    </state>
+    <state x="482" y="124" key="SettingsEditor/65.24.1839.944@65.24.1839.944" timestamp="1582791807745" />
+    <state x="486" y="126" key="SettingsEditor/65.24.1855.960@65.24.1855.960" timestamp="1582789018156" />
+    <state x="654" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1582785931124">
+      <screen x="65" y="24" width="1855" height="960" />
+    </state>
+    <state x="654" y="333" key="com.intellij.ide.util.TipDialog/65.24.1855.960@65.24.1855.960" timestamp="1582785931124" />
+  </component>
+</project>
