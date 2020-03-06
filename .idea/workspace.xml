@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec2c169-4deb-4a80-afe2-ad8c489e286b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Monitoring/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Monitoring/pyModbus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Monitoring/videos/01.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Monitoring/videos/02.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Monitoring/videos/03.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calcLRC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_vlc_ex/01.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_vlc_ex/02.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_vlc_ex/03.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_vlc_ex/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_vlc_ex/mini_player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_vlc_ex/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vlc_python.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyModbus.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyModbus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/union.py" beforeDir="false" afterPath="$PROJECT_DIR$/union.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vlctest.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlctest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monitoring/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Monitoring/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monitoring/pyModbus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Monitoring/pyModbus.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,8 +152,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.calcLRC" />
         <item itemvalue="Python.pyModbus" />
+        <item itemvalue="Python.calcLRC" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.mini_player" />
       </list>
@@ -197,38 +182,38 @@
     </state>
     <state x="302" y="241" key="FileChooserDialogImpl/65.24.1839.944@65.24.1839.944" timestamp="1582791001496" />
     <state x="304" y="245" key="FileChooserDialogImpl/65.24.1855.960@65.24.1855.960" timestamp="1582788201326" />
-    <state width="1832" height="266" key="GridCell.Tab.0.bottom" timestamp="1583482112127">
+    <state width="1832" height="266" key="GridCell.Tab.0.bottom" timestamp="1583484300453">
       <screen x="65" y="24" width="1855" height="960" />
     </state>
     <state width="1728" height="266" key="GridCell.Tab.0.bottom/65.24.1751.984@65.24.1751.984" timestamp="1583478066436" />
     <state width="1744" height="266" key="GridCell.Tab.0.bottom/65.24.1767.1000@65.24.1767.1000" timestamp="1583478592719" />
     <state width="1749" height="274" key="GridCell.Tab.0.bottom/65.24.1772.984@65.24.1772.984" timestamp="1582877273166" />
-    <state width="1816" height="259" key="GridCell.Tab.0.bottom/65.24.1839.944@65.24.1839.944" timestamp="1582797647573" />
-    <state width="1832" height="266" key="GridCell.Tab.0.bottom/65.24.1855.960@65.24.1855.960" timestamp="1583482112127" />
-    <state width="1832" height="266" key="GridCell.Tab.0.center" timestamp="1583482112127">
+    <state width="1816" height="266" key="GridCell.Tab.0.bottom/65.24.1839.944@65.24.1839.944" timestamp="1583483013541" />
+    <state width="1832" height="266" key="GridCell.Tab.0.bottom/65.24.1855.960@65.24.1855.960" timestamp="1583484300453" />
+    <state width="1832" height="266" key="GridCell.Tab.0.center" timestamp="1583484300452">
       <screen x="65" y="24" width="1855" height="960" />
     </state>
     <state width="1728" height="266" key="GridCell.Tab.0.center/65.24.1751.984@65.24.1751.984" timestamp="1583478066436" />
     <state width="1744" height="266" key="GridCell.Tab.0.center/65.24.1767.1000@65.24.1767.1000" timestamp="1583478592718" />
     <state width="1749" height="274" key="GridCell.Tab.0.center/65.24.1772.984@65.24.1772.984" timestamp="1582877273166" />
-    <state width="1816" height="259" key="GridCell.Tab.0.center/65.24.1839.944@65.24.1839.944" timestamp="1582797647572" />
-    <state width="1832" height="266" key="GridCell.Tab.0.center/65.24.1855.960@65.24.1855.960" timestamp="1583482112127" />
-    <state width="1832" height="266" key="GridCell.Tab.0.left" timestamp="1583482112126">
+    <state width="1816" height="266" key="GridCell.Tab.0.center/65.24.1839.944@65.24.1839.944" timestamp="1583483013539" />
+    <state width="1832" height="266" key="GridCell.Tab.0.center/65.24.1855.960@65.24.1855.960" timestamp="1583484300452" />
+    <state width="1832" height="266" key="GridCell.Tab.0.left" timestamp="1583484300452">
       <screen x="65" y="24" width="1855" height="960" />
     </state>
     <state width="1728" height="266" key="GridCell.Tab.0.left/65.24.1751.984@65.24.1751.984" timestamp="1583478066435" />
     <state width="1744" height="266" key="GridCell.Tab.0.left/65.24.1767.1000@65.24.1767.1000" timestamp="1583478592718" />
     <state width="1749" height="274" key="GridCell.Tab.0.left/65.24.1772.984@65.24.1772.984" timestamp="1582877273166" />
-    <state width="1816" height="259" key="GridCell.Tab.0.left/65.24.1839.944@65.24.1839.944" timestamp="1582797647572" />
-    <state width="1832" height="266" key="GridCell.Tab.0.left/65.24.1855.960@65.24.1855.960" timestamp="1583482112126" />
-    <state width="1832" height="266" key="GridCell.Tab.0.right" timestamp="1583482112127">
+    <state width="1816" height="266" key="GridCell.Tab.0.left/65.24.1839.944@65.24.1839.944" timestamp="1583483013538" />
+    <state width="1832" height="266" key="GridCell.Tab.0.left/65.24.1855.960@65.24.1855.960" timestamp="1583484300452" />
+    <state width="1832" height="266" key="GridCell.Tab.0.right" timestamp="1583484300452">
       <screen x="65" y="24" width="1855" height="960" />
     </state>
     <state width="1728" height="266" key="GridCell.Tab.0.right/65.24.1751.984@65.24.1751.984" timestamp="1583478066436" />
     <state width="1744" height="266" key="GridCell.Tab.0.right/65.24.1767.1000@65.24.1767.1000" timestamp="1583478592719" />
     <state width="1749" height="274" key="GridCell.Tab.0.right/65.24.1772.984@65.24.1772.984" timestamp="1582877273166" />
-    <state width="1816" height="259" key="GridCell.Tab.0.right/65.24.1839.944@65.24.1839.944" timestamp="1582797647573" />
-    <state width="1832" height="266" key="GridCell.Tab.0.right/65.24.1855.960@65.24.1855.960" timestamp="1583482112127" />
+    <state width="1816" height="266" key="GridCell.Tab.0.right/65.24.1839.944@65.24.1839.944" timestamp="1583483013539" />
+    <state width="1832" height="266" key="GridCell.Tab.0.right/65.24.1855.960@65.24.1855.960" timestamp="1583484300452" />
     <state x="482" y="124" key="SettingsEditor" timestamp="1582791807745">
       <screen x="65" y="24" width="1839" height="944" />
     </state>
@@ -238,5 +223,16 @@
       <screen x="65" y="24" width="1855" height="960" />
     </state>
     <state x="654" y="333" key="com.intellij.ide.util.TipDialog/65.24.1855.960@65.24.1855.960" timestamp="1582785931124" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Monitoring/pyModbus.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

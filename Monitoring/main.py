@@ -22,12 +22,15 @@ class Player():
         self.mediaplayer.set_fullscreen(True)
 
     def play_only(self):
-        if self.mediaplayer.is_playing() is not True:
+
+        if self.is_paused is True:
+            print("Play the video")
             self.mediaplayer.play()
             self.is_paused = False
 
     def pause_only(self):
         if self.mediaplayer.is_playing():
+            print("Pause the video")
             self.mediaplayer.pause()
             self.is_paused = True
 
@@ -56,7 +59,9 @@ class Player():
         self.media = self.instance.media_new(path)
         # Put the media in the media player
         self.mediaplayer.set_media(self.media)
+        #self.stop()
         self.play_pause()
+        print("open video: " + path)
 
 def main_vlc():
     """Entry point for our simple vlc player
@@ -71,12 +76,10 @@ def main_vlc():
 
 
 class Thread():
-    def __init__(self, port, baudrate, timeout):
-        # ser = serial.Serial(port, baudrate, timeout)  # timeout 단위: s
-        # self.modbus = pyModbus(ser)
+    def __init__(self):
+        ser = serial.Serial("/dev/ttyUSB0", 115200,timeout=0.1)  # timeout 단위: s
+        self.modbus = pyModbus(ser)
         self.player = Player()
-
-
 
         #Get file_list and set the parameter
         self.file_list = os.listdir("./videos")
@@ -90,7 +93,7 @@ class Thread():
         self.player.open_file(self.file_list[0])
 
         # # Add to listener
-        # self.listener()
+        self.listener()
 
 
     def listener(self):
@@ -110,16 +113,15 @@ class Thread():
                 self.player.open_file(self.file_list[i])
                 self.play_request_flag[i] = 1
 
-        if self.playing is [1]:
+        if self.playing[0] is 1:
             self.player.play_only()
         else:
             self.player.pause_only()
 
-
         threading.Timer(0.1, self.listener).start()
 
 def main():
-    thread = Thread("/dev/ttyUSB0", 115200, 0.1)
+    thread = Thread()
     input()
 
 if __name__ == '__main__':

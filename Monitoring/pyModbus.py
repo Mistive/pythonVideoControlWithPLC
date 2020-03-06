@@ -8,8 +8,6 @@ class pyModbus():
         self.ser = serial
         self.count = 0
 
-
-
     def crc16(data, byInt=False):
         # This code is ported from modbus CRC16(https://www.modbustools.com/modbus_crc16.htm)
         crcTable = [0x0000, 0xC0C1, 0xC181, 0x0140, 0xC301, 0x03C0, 0x0280, 0xC241, 0xC601, 0x06C0, 0x0780, 0xC741,
@@ -65,10 +63,12 @@ class pyModbus():
     def readCoilStatus(self, id, address, num):
         # id : 국번, address : 시작 레지스터 주소, num : 읽어들 데이터 개수
         hid = id
-
+        #SingleCoil Address 값 계산 방법 : address의 마지막 주소는 hexa값이므로 이를 반영
         address = int(address/10*16 + address%10)
         haddressHi = 0
         haddressLo = 0
+
+        #0xff 초과분에 대해서는 Hi로 옮김
         if address > 0xff:
             haddressHi = address - 0xff
         haddressLo = address - haddressHi
