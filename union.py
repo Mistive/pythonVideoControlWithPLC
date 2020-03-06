@@ -3,30 +3,38 @@ import vlctest
 import serial
 import time
 
+
+
+
+
+
 ser = serial.Serial("/dev/ttyUSB0", 115200, timeout=0.1)  # timeout 단위: s
 modbus = pyModbus.pyModbus(ser)
-
-
-p=vlctest.Player()
+str = ['./videos/01.mp4', './videos/02.mp4', './videos/03.mp4']
+player=vlctest.Player()
+modbus.writeSingleCoil(id=1, address=9, on=True)
 flag = 0
 while(True):
+    playbutton = modbus.readCoilStatus(id=1, address=10, num=1)
     ret = modbus.readCoilStatus(id=1, address=0, num=3)
-    print(flag is 0 and ret[0] is 1)
+    print(ret, playbutton)
 
-    if ret[0] is 1 and flag is 0:
-        flag = 1
-        p.stop()
-        p.play('./videos/01.mp4')
-    elif ret[1] is 1 and flag is 0:
-        flag = 1
-        p.stop()
-        p.play('./videos/02.mp4')
-    elif ret[2] is 1 and flag is 0:
-        flag = 1
-        p.stop()
-        p.play('./videos/03.mp4')
-    elif ret == [0,0,0]:
-        flag = 0
+    if player.changePlaying() is True:
+        if playbutton is 1:
+            player.resume()
+        else:
+            player.pause()
 
-    print(ret, flag)
-    time.sleep(0.2)
+    for i in range(0,3):
+        if ret[i] is 1:
+            # player.getstate()
+            # if player.playable is 1:
+            #
+            #     player.stop()
+            player.play(str[i])
+            modbus.writeSingleCoil(id=1, address=9, on=True)
+            modbus.writeSingleCoil(id=1, address=100 + i, on=True)
+            time.sleep(0.1)
+            modbus.writeSingleCoil(id=1, address=100 + i, on=False)
+
+    time.sleep(0.1)

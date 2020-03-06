@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aec2c169-4deb-4a80-afe2-ad8c489e286b" name="Default Changelist" comment="" />
+    <list default="true" id="aec2c169-4deb-4a80-afe2-ad8c489e286b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monitoring/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monitoring/pyModbus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monitoring/videos/01.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monitoring/videos/02.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Monitoring/videos/03.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calcLRC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_vlc_ex/01.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_vlc_ex/02.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_vlc_ex/03.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_vlc_ex/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_vlc_ex/mini_player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_vlc_ex/network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vlc_python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyModbus.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyModbus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/union.py" beforeDir="false" afterPath="$PROJECT_DIR$/union.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vlctest.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlctest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YNbHa0GFTJWty1SpzFgx0gnA6X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +45,104 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Monitoring" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.union">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Monitoring" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Monitoring" />
+      <recent name="$PROJECT_DIR$/python_vlc_ex" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="calcLRC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calcLRC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Monitoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Monitoring/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_vlc_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_vlc_ex/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mini_player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_vlc_ex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_vlc_ex/mini_player.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pyModbus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -46,75 +164,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytubetest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytubetest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="union" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/union.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="vlctest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vlctest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.union" />
-        <item itemvalue="Python.vlctest" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.calcLRC" />
         <item itemvalue="Python.pyModbus" />
-        <item itemvalue="Python.pytubetest" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.mini_player" />
       </list>
     </recent_temporary>
   </component>
@@ -141,26 +197,38 @@
     </state>
     <state x="302" y="241" key="FileChooserDialogImpl/65.24.1839.944@65.24.1839.944" timestamp="1582791001496" />
     <state x="304" y="245" key="FileChooserDialogImpl/65.24.1855.960@65.24.1855.960" timestamp="1582788201326" />
-    <state width="1816" height="259" key="GridCell.Tab.0.bottom" timestamp="1582797647573">
-      <screen x="65" y="24" width="1839" height="944" />
+    <state width="1832" height="266" key="GridCell.Tab.0.bottom" timestamp="1583482112127">
+      <screen x="65" y="24" width="1855" height="960" />
     </state>
+    <state width="1728" height="266" key="GridCell.Tab.0.bottom/65.24.1751.984@65.24.1751.984" timestamp="1583478066436" />
+    <state width="1744" height="266" key="GridCell.Tab.0.bottom/65.24.1767.1000@65.24.1767.1000" timestamp="1583478592719" />
+    <state width="1749" height="274" key="GridCell.Tab.0.bottom/65.24.1772.984@65.24.1772.984" timestamp="1582877273166" />
     <state width="1816" height="259" key="GridCell.Tab.0.bottom/65.24.1839.944@65.24.1839.944" timestamp="1582797647573" />
-    <state width="1832" height="265" key="GridCell.Tab.0.bottom/65.24.1855.960@65.24.1855.960" timestamp="1582789493137" />
-    <state width="1816" height="259" key="GridCell.Tab.0.center" timestamp="1582797647572">
-      <screen x="65" y="24" width="1839" height="944" />
+    <state width="1832" height="266" key="GridCell.Tab.0.bottom/65.24.1855.960@65.24.1855.960" timestamp="1583482112127" />
+    <state width="1832" height="266" key="GridCell.Tab.0.center" timestamp="1583482112127">
+      <screen x="65" y="24" width="1855" height="960" />
     </state>
+    <state width="1728" height="266" key="GridCell.Tab.0.center/65.24.1751.984@65.24.1751.984" timestamp="1583478066436" />
+    <state width="1744" height="266" key="GridCell.Tab.0.center/65.24.1767.1000@65.24.1767.1000" timestamp="1583478592718" />
+    <state width="1749" height="274" key="GridCell.Tab.0.center/65.24.1772.984@65.24.1772.984" timestamp="1582877273166" />
     <state width="1816" height="259" key="GridCell.Tab.0.center/65.24.1839.944@65.24.1839.944" timestamp="1582797647572" />
-    <state width="1832" height="265" key="GridCell.Tab.0.center/65.24.1855.960@65.24.1855.960" timestamp="1582789493136" />
-    <state width="1816" height="259" key="GridCell.Tab.0.left" timestamp="1582797647572">
-      <screen x="65" y="24" width="1839" height="944" />
+    <state width="1832" height="266" key="GridCell.Tab.0.center/65.24.1855.960@65.24.1855.960" timestamp="1583482112127" />
+    <state width="1832" height="266" key="GridCell.Tab.0.left" timestamp="1583482112126">
+      <screen x="65" y="24" width="1855" height="960" />
     </state>
+    <state width="1728" height="266" key="GridCell.Tab.0.left/65.24.1751.984@65.24.1751.984" timestamp="1583478066435" />
+    <state width="1744" height="266" key="GridCell.Tab.0.left/65.24.1767.1000@65.24.1767.1000" timestamp="1583478592718" />
+    <state width="1749" height="274" key="GridCell.Tab.0.left/65.24.1772.984@65.24.1772.984" timestamp="1582877273166" />
     <state width="1816" height="259" key="GridCell.Tab.0.left/65.24.1839.944@65.24.1839.944" timestamp="1582797647572" />
-    <state width="1832" height="265" key="GridCell.Tab.0.left/65.24.1855.960@65.24.1855.960" timestamp="1582789493136" />
-    <state width="1816" height="259" key="GridCell.Tab.0.right" timestamp="1582797647573">
-      <screen x="65" y="24" width="1839" height="944" />
+    <state width="1832" height="266" key="GridCell.Tab.0.left/65.24.1855.960@65.24.1855.960" timestamp="1583482112126" />
+    <state width="1832" height="266" key="GridCell.Tab.0.right" timestamp="1583482112127">
+      <screen x="65" y="24" width="1855" height="960" />
     </state>
+    <state width="1728" height="266" key="GridCell.Tab.0.right/65.24.1751.984@65.24.1751.984" timestamp="1583478066436" />
+    <state width="1744" height="266" key="GridCell.Tab.0.right/65.24.1767.1000@65.24.1767.1000" timestamp="1583478592719" />
+    <state width="1749" height="274" key="GridCell.Tab.0.right/65.24.1772.984@65.24.1772.984" timestamp="1582877273166" />
     <state width="1816" height="259" key="GridCell.Tab.0.right/65.24.1839.944@65.24.1839.944" timestamp="1582797647573" />
-    <state width="1832" height="265" key="GridCell.Tab.0.right/65.24.1855.960@65.24.1855.960" timestamp="1582789493136" />
+    <state width="1832" height="266" key="GridCell.Tab.0.right/65.24.1855.960@65.24.1855.960" timestamp="1583482112127" />
     <state x="482" y="124" key="SettingsEditor" timestamp="1582791807745">
       <screen x="65" y="24" width="1839" height="944" />
     </state>

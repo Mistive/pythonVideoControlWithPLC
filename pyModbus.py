@@ -6,6 +6,8 @@ class pyModbus():
 
     def __init__(self, serial):
         self.ser = serial
+        self.count = 0
+
 
 
     def crc16(data, byInt=False):
@@ -64,6 +66,7 @@ class pyModbus():
         # id : 국번, address : 시작 레지스터 주소, num : 읽어들 데이터 개수
         hid = id
 
+        address = int(address/10*16 + address%10)
         haddressHi = 0
         haddressLo = 0
         if address > 0xff:
@@ -78,9 +81,10 @@ class pyModbus():
 
         hcrc = pyModbus.crc16([hid, 1, haddressHi, haddressLo, hnumHi, hnumLo])
         command = bytearray([hid, 1, haddressHi, haddressLo, hnumHi, hnumLo, hcrc[0], hcrc[1]])
-
+        # print(command)
+        # print(haddressLo)
         self.ser.write(command)
-        # print(ser.readline())
+        #print(ser.readline())
 
         ack_info = self.ser.read(3)
         ret = []
@@ -152,6 +156,8 @@ class pyModbus():
         # id : 국번, address : 시작 레지스터 주소, num : 읽어들 데이터 개수
         hid = id
 
+        address = int(address/10*16 + address%10)
+
         haddressHi = 0
         haddressLo = 0
         if address > 0xff:
@@ -166,7 +172,7 @@ class pyModbus():
 
         hcrc = pyModbus.crc16([hid, 5, haddressHi, haddressLo, hnumHi, hnumLo])
         command = bytearray([hid, 5, haddressHi, haddressLo, hnumHi, hnumLo, hcrc[0], hcrc[1]])
-
+        print(command)
         self.ser.write(command)
         ret = self.ser.read(command.__len__())
         if ret is bytes():
@@ -197,18 +203,18 @@ class pyModbus():
         # req와 ack가 동일하면 정상 응답
 
 
-# if __name__ == '__main__':
-#     ser = serial.Serial("/dev/ttyUSB0", 115200, timeout=0.1)  # timeout 단위: s
-#
-#     # example
-#
-#     modbus = pyModbus(ser)
-#     # 반환값 : ret-> bit 값이 각 list에 들어가있음.
-#     while (True):
-#         #modbus.writeSingleCoil(id=1, address=1, on=True)
-#         #modbus.writeSingleRegister(id=1, address=0, data=100)
-#         ret = modbus.readCoilStatus(id=1, address=1, num=3)
-#         print(ret)
-#         #ret = modbus.readInputRegisters(id=1, address=0, num=1)
-#         print("Clear")
-#         time.sleep(1)
+if __name__ == '__main__':
+    ser = serial.Serial("/dev/ttyUSB0", 115200, timeout=0.1)  # timeout 단위: s
+
+    # example
+
+    modbus = pyModbus(ser)
+    # 반환값 : ret-> bit 값이 각 list에 들어가있음.
+    while (True):
+        modbus.writeSingleCoil(id=1, address=0, on=True)
+        # modbus.writeSingleRegister(id=1, address=0, data=100)
+        # ret = modbus.readCoilStatus(id=1, address=1, num=3)
+        # print(ret)
+        #ret = modbus.readInputRegisters(id=1, address=0, num=1)
+        print("Clear")
+        time.sleep(0.1)
