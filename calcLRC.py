@@ -1,26 +1,24 @@
-def calcLRC(Msg):
-    chs = list(Msg)
+def calcLRC(data):
+    #Add the RTU Value
+    RTU_sum = ((sum(data) & 0xff) ^ 0xff) + 0x01
 
-    print(chs)
-    ch = [hex(c) for c in chs]
-    uchLRC = sum(ch)
-    print(uchLRC)
-    uchLRC = uchLRC & 0xff
-    print(uchLRC)
-    out = twos_comp(uchLRC, 8)
-    print(out)
+    lrc = [RTU_sum >> 4, RTU_sum & 0xf]
 
-def twos_comp(val, bits):
-    """compute the 2's complement of int value val"""
-    if (val & (1 << (bits - 1))) != 0: # if sign bit is set e.g., 8bit: 128-255
-        val = val - (1 << bits)        # compute negative value
-    return val                         # return positive value as is
+    return lrc
 
+
+def hexToAscii(data):
+    ret = []
+    for d in data:
+        ret.append(ord(format(d, 'X')))
+
+    return ret
 
 def main():
-    calcLRC("1103006B0003")
-
-
+    LRC = calcLRC([0x11, 0x03, 0x00, 0x6B, 0x00, 0x03])
+    data2 = hexToAscii(LRC)
+    print(LRC)
+    print(data2)
 
 if __name__ == '__main__':
     main()
