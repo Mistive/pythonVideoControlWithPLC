@@ -61,8 +61,8 @@ class pyModbus():
             return crc[0] * 256 + crc[1];
         return crc
 
-    # 기능코드 : 01
-    def readCoilStatus(self, id, address, num):
+    # 기능코드 : 02 Coil Read to Input
+    def readInputStatus(self, id, address, num):
         # id : 국번, address : 시작 레지스터 주소, num : 읽어들 데이터 개수
         hid = id
 
@@ -79,8 +79,8 @@ class pyModbus():
             hnumHi = num - 0xff
         hnumLo = num - hnumHi
 
-        hcrc = pyModbus.crc16([hid, 1, haddressHi, haddressLo, hnumHi, hnumLo])
-        command = bytearray([hid, 1, haddressHi, haddressLo, hnumHi, hnumLo, hcrc[0], hcrc[1]])
+        hcrc = pyModbus.crc16([hid, 2, haddressHi, haddressLo, hnumHi, hnumLo])
+        command = bytearray([hid, 2, haddressHi, haddressLo, hnumHi, hnumLo, hcrc[0], hcrc[1]])
         # print(command)
         # print(haddressLo)
         self.ser.write(command)
@@ -107,7 +107,53 @@ class pyModbus():
             print("No Data")
 
         return ret
+        # 기능코드 : 01
 
+    def readCoilStatus(self, id, address, num):
+        # id : 국번, address : 시작 레지스터 주소, num : 읽어들 데이터 개수
+        hid = id
+
+        address = int(address / 10) * 16 + address % 10
+        haddressHi = 0
+        haddressLo = 0
+        if address > 0xff:
+            haddressHi = address - 0xff
+        haddressLo = address - haddressHi
+
+        hnumHi = 0
+        hnumLo = 0
+        if num > 0xff:
+            hnumHi = num - 0xff
+        hnumLo = num - hnumHi
+
+        hcrc = pyModbus.crc16([hid, 1, haddressHi, haddressLo, hnumHi, hnumLo])
+        command = bytearray([hid, 1, haddressHi, haddressLo, hnumHi, hnumLo, hcrc[0], hcrc[1]])
+        # print(command)
+        # print(haddressLo)
+        self.ser.write(command)
+        # print(ser.readline())
+
+        ack_info = self.ser.read(3)
+        ret = []
+        if ack_info is not bytes():  # ack가 아무것도 들어오지 않았을 경우
+
+            ack_id = ack_info[0]  # byte -> int
+            ack_fn = ack_info[1]
+            ack_byte_size = ack_info[2]
+
+            cnt = num
+            while (cnt):
+                ack = self.ser.read(1)[0]  # 1byte 데이터 가져옴
+                for i in range(0, 8):
+                    ret += [ack & 1]
+                    ack = ack >> 1
+                    cnt -= 1
+                    if cnt == 0: break
+            ack_crc = self.ser.read(2)
+        else:
+            print("No Data")
+
+        return ret
     # 기능코드 : 04
     def readInputRegisters(self, id, address, num):  # 아날로그 레지스터 값을 읽을 때 사용(WORD, 16bit로 읽어옴)
         # id : 국번, address : 시작 레지스터 주소, num : 읽어들 데이터 개수
