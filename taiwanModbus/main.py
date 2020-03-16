@@ -11,7 +11,7 @@ def main():
     print("Start")
 
     while (True):
-        L1 = modbus.readCoilStatus(1, 1, 4)
+        L1 = modbus.readInputStatus(1, 1, 4)
         L1Q = modbus.readInputRegisters(1, 1, 5)
         modbus.writeSingleRegister(1,1,cnt)
         modbus.writeSingleRegister(1, 2, cnt+cnt)
