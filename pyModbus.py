@@ -66,7 +66,7 @@ class pyModbus():
         # id : 국번, address : 시작 레지스터 주소, num : 읽어들 데이터 개수
         hid = id
 
-        address = int(address/10*16 + address%10)
+        address = int(address / 10) * 16 + address % 10
         haddressHi = 0
         haddressLo = 0
         if address > 0xff:
@@ -156,7 +156,7 @@ class pyModbus():
         # id : 국번, address : 시작 레지스터 주소, num : 읽어들 데이터 개수
         hid = id
 
-        address = int(address/10*16 + address%10)
+        address = int(address / 10) * 16 + address % 10
 
         haddressHi = 0
         haddressLo = 0
@@ -203,18 +203,18 @@ class pyModbus():
         # req와 ack가 동일하면 정상 응답
 
 
-if __name__ == '__main__':
-    ser = serial.Serial("/dev/ttyUSB0", 115200, timeout=0.1)  # timeout 단위: s
-
-    # example
-
-    modbus = pyModbus(ser)
-    # 반환값 : ret-> bit 값이 각 list에 들어가있음.
-    while (True):
-        modbus.writeSingleCoil(id=1, address=0, on=True)
-        # modbus.writeSingleRegister(id=1, address=0, data=100)
-        # ret = modbus.readCoilStatus(id=1, address=1, num=3)
-        # print(ret)
-        #ret = modbus.readInputRegisters(id=1, address=0, num=1)
-        print("Clear")
-        time.sleep(0.1)
+# if __name__ == '__main__':
+#     ser = serial.Serial("/dev/ttyUSB0", 115200, timeout=0.1)  # timeout 단위: s
+#
+#     # example
+#
+#     modbus = pyModbus(ser)
+#     # 반환값 : ret-> bit 값이 각 list에 들어가있음.
+#     while (True):
+#         modbus.writeSingleCoil(id=1, address=0, on=True)
+#         # modbus.writeSingleRegister(id=1, address=0, data=100)
+#         # ret = modbus.readCoilStatus(id=1, address=1, num=3)
+#         # print(ret)
+#         #ret = modbus.readInputRegisters(id=1, address=0, num=1)
+#         print("Clear")
+#         time.sleep(0.1)
